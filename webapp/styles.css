@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    background-color: #528bc4;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-links {
+    display: flex;
+}
+
+.auth-button {
+    background-color: #ddd;
+    color: #528bc4;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.auth-button:hover {
+    background-color: #aaa;
+}
+
+main {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    background-color: #528bc4;
+    color: #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #427bac;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444343;
+}
+
+footer {
+    background-color: #528bc4;
+    text-align: center;
+    padding: 0.5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ddd;
+}
+
+#addbook-link {
+    display: inline-block;
+    background-color: #528bc4;
+    color: #ddd;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 120px;  
+}
+
+#addbook-link:hover {
+    background-color: #427bac;
+}
+
+#search-input {
+    padding: 8px;
+    width: 60%;
+}
+
+#search-button, #reset-button {
+    background-color: #528bc4;
+    color: #ddd;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#search-button:hover, #reset-button:hover {
+    background-color: #427bac;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#sort-selection {
+    margin-left: 10px;
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.1em;
+    margin-top: 15px;
+}
+
+form input[type="text"], form select {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-button {
+    background-color: #528bc4;
+    color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.form-button:hover {
+    background-color: #427bac;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Book - Kumo Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Add New Book</h1>
+    </header>
+    
+    <main>
+        <form id="addBookForm">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="date">Date of Pablication:</label><br>
+            <input type="text" id="date" name="date" placeholder="yyyy-mm-dd"><br>
+            <label for="booklanguage">Language:</label><br>
+            <select id="booklanguage" name="booklanguage">
+                <option value="English">English</option>
+                <option value="Japanese">Japanese</option>
+                <option value="German">German</option>
+            </select><br>
+            <div class="button-container">
+                <input type="submit" value="Submit" class="form-button">
+                <a href="index.html" class="form-button">Home</a>
+            </div>
+        </form>
+        
+    </main>
+
+    <footer>
+        <p>© 2023 Kumo Library</p>
+    </footer>
+    
+    <script src="addbook.js"></script>
+</body>
+</html>

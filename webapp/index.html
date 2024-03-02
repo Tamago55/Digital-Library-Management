@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kumo Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.28.min.js"></script>
+    <script src="https://unpkg.com/amazon-cognito-identity-js/dist/amazon-cognito-identity.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Kumo Library</h1>
+    </header>
+    
+    <main>
+        <!-- <a href="signup.html" id="signup-link">Sign Up</a>
+        <a href="verify.html" id="verify-link">Verification</a> -->
+        <a href="addbook.html" id="addbook-link">Add new book</a>
+        <!-- <a href="login.html" id="login-link">Login</a>
+        <div id="logout"></div> -->
+
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+        <button id="reset-button">Reset</button>
+
+        <div class="sort-container">
+            <label for="sort-selection">Sort by:</label>
+            <select id="sort-selection">
+              <option value="title-asc">Title (A to Z)</option>
+              <option value="title-desc">Title (Z to A)</option>
+              <option value="author-asc">Author (A to Z)</option>
+              <option value="author-desc">Author (Z to A)</option>
+            </select>
+        </div>
+
+        <table id="book-table">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Book ID</th>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Date of Publication</th>
+                    <th>Language</th>
+                    <th>Document</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>© 2023 Kumo Library</p>
+    </footer>
+    
+    <script src="index.js"></script>
+    <!-- <script type="text/babel" src="logout.js"></script> -->
+    <!-- <script>
+        if (localStorage.getItem('token')) {
+          const script = document.createElement('script');
+          script.type = 'text/babel';
+          script.src = 'logout.js';
+          document.body.appendChild(script);
+        }
+    </script> -->
+</body>
+</html>
