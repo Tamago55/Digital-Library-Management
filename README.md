@@ -17,7 +17,7 @@ Click and Watch the video below
 - Each book displays the title, author, cover image, and publication date.
 - You can also add and edit books
 
-<img src="page.png" alt="page" height="600">
+<img src="page.png" alt="page">
 
 
  ## AWS Services 
@@ -29,7 +29,7 @@ Click and Watch the video below
 
 ## Architecture
 
- <img src="Architecture.png" alt="Architecture" height="600">
+ <img src="Architecture.png" alt="Architecture">
 
 The application's serverless architecture ensures high scalability and can easily handle increasing book data and user access. The backend functionality of your application is implemented using AWS Lambda functions, which are serverless compute units that execute code in response to events.
 
