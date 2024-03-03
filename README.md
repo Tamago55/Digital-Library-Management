@@ -7,7 +7,7 @@ In this project, a serverless book library management application was implemente
 ## Demonstration
 Click and Watch the video below
 
-[![Watch the video](https://img.youtube.com/vi/NbZNoyfsjFI/hqdefault.jpg)](https://www.youtube.com/watch?v=NbZNoyfsjFI)
+[![Watch the video](https://img.youtube.com/vi/NbZNoyfsjFI/hqdefault.jpg)](https://youtu.be/dh46XrBceqs)
 
 ## Components
 
